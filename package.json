@@ -1,58 +1,63 @@
 {
-  "name": "react-tailwind-css-starter-pack",
+  "name": "studynotion-client",
+  "description": "This is the client side of the StudyNotion App",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "@reduxjs/toolkit": "^2.3.0",
-    "axios": "^1.7.7",
-    "concurrently": "^8.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hot-toast": "^2.4.1",
+    "@ramonak/react-progress-bar": "^5.4.0",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "chart.js": "^4.5.0",
+    "copy-to-clipboard": "^3.3.3",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.3.8",
+    "react-hook-form": "^7.61.1",
+    "react-hot-toast": "^2.5.2",
     "react-icons": "^4.12.0",
-    "react-redux": "^9.1.2",
-    "react-router-dom": "^6.11.2",
-    "react-scripts": "5.0.1",
-    "react-tailwind-css-starter-pack": "file:",
-    "react-type-animation": "^3.0.1",
-    "redux-toolkit": "^1.1.2",
+    "react-markdown": "^8.0.7",
+    "react-otp-input": "^3.1.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.30.1",
+    "react-super-responsive-table": "^5.2.3",
+    "react-type-animation": "^3.2.0",
+    "showdown": "^2.1.0",
+    "swiper": "^9.4.1",
+    "video-react": "^0.16.0",
     "web-vitals": "^2.1.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
-  },
-  "author": "Pranay Gupta",
-  "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "server": "cd server && npm run dev",
-    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "server": "cd server && pnpm run dev",
+    "start": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"pnpm run dev\" \"pnpm run server\"",
+    "lint": "eslint src/**/*.{js,jsx}"
   },
   "devDependencies": {
-    "@types/react": "^18.3.3",
-    "tailwindcss": "^3.2.7"
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "jsdom": "^26.1.0",
+    "postcss": "^8.4.47",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.5.5",
+    "vite-plugin-node-polyfills": "^0.24.0",
+    "vitest": "^0.34.6"
   }
 }
