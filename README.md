@@ -1,6 +1,15 @@
 # StudyNotion Edtech Project
 
 <img width="518" height="782" alt="mainpage" src="https://github.com/user-attachments/assets/0d2b8185-77e0-43d7-99bc-018b84827beb" />
+<img width="1919" height="839" alt="Screenshot 2025-09-05 181218" src="https://github.com/user-attachments/assets/4e4b489c-7edd-4d65-97be-389f44f69426" />
+<img width="1919" height="868" alt="Screenshot 2025-09-05 181234" src="https://github.com/user-attachments/assets/aee53ad2-f5b6-4f02-a423-9f92583422a0" />
+<img width="1886" height="857" alt="Screenshot 2025-09-05 183219" src="https://github.com/user-attachments/assets/1320a518-3baa-4952-b276-7c9ca551cd76" />
+<img width="1910" height="794" alt="Screenshot 2025-09-05 183231" src="https://github.com/user-attachments/assets/88643aef-07f2-4cd4-ad54-e25d5c139b47" />
+<img width="1911" height="790" alt="Screenshot 2025-09-05 183308" src="https://github.com/user-attachments/assets/77a896eb-519b-4301-866a-d203b710d560" />
+<img width="1915" height="656" alt="Screenshot 2025-09-05 183322" src="https://github.com/user-attachments/assets/718f8a20-ec68-4cb3-a8c0-e3f61c181c5f" />
+<img width="1913" height="797" alt="Screenshot 2025-09-05 183330" src="https://github.com/user-attachments/assets/74487e42-a5c4-4c59-be4d-d7d08a7359cf" />
+<img width="1912" height="867" alt="Screenshot 2025-09-09 144903" src="https://github.com/user-attachments/assets/8536b024-d597-4193-9f63-4b2bf856b239" />
+
 
 platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
 
